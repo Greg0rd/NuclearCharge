@@ -1,0 +1,58 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Nuclear Charge — Ядерный заряд [BP]",
+        "description": "Ядерный арсенал v1.7: пусковая станция, видимая ракета, цель-метки (без клавиатуры), кратер-чаша R=100 с AAA-визуалом (вспышка 3 фазы, огненный шар, base surge, гроза), сирена ГО до и после взрыва, пепел, радиация с гейгером.",
+        "uuid": "adc8d1be-bf3f-4382-b7d4-2d21881b8485",
+        "version": [
+            1,
+            9,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            90
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "b542e6ad-a483-4fc7-8d2b-16fc4d767e34",
+            "version": [
+                1,
+                9,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/main.js",
+            "uuid": "9292704d-8862-4217-915c-eb30fc3a351d",
+            "version": [
+                1,
+                9,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.0.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.0.0"
+        },
+        {
+            "uuid": "b8eea885-5d1f-40fc-827e-2ce121046bb3",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

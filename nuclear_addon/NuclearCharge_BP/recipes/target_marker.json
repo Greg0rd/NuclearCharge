@@ -1,0 +1,26 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nuclear:target_marker_recipe"
+        },
+        "tags": ["crafting_table"],
+        "unlock": [
+            { "item": "minecraft:redstone" }
+        ],
+        "pattern": [
+            " R ",
+            "RIR",
+            " R "
+        ],
+        "key": {
+            "R": { "item": "minecraft:redstone" },
+            "I": { "item": "minecraft:iron_ingot" }
+        },
+        "priority": 0,
+        "result": {
+            "item": "nuclear:target_marker",
+            "count": 2
+        }
+    }
+}

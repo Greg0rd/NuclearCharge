@@ -1,0 +1,27 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nuclear:nuclear_charge_recipe"
+        },
+        "tags": ["crafting_table"],
+        "unlock": [
+            { "item": "minecraft:tnt" }
+        ],
+        "pattern": [
+            "IRI",
+            "RTR",
+            "IRI"
+        ],
+        "key": {
+            "I": { "item": "minecraft:iron_ingot" },
+            "R": { "item": "minecraft:redstone_block" },
+            "T": { "item": "minecraft:tnt" }
+        },
+        "priority": 0,
+        "result": {
+            "item": "nuclear:nuclear_charge",
+            "count": 1
+        }
+    }
+}

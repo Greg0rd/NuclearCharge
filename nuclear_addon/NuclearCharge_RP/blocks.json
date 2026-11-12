@@ -1,0 +1,18 @@
+{
+    "format_version": "1.1.0",
+    "nuclear:nuclear_charge": {
+        "sound": "metal"
+    },
+    "nuclear:nuclear_charge_armed": {
+        "sound": "metal"
+    },
+    "nuclear:launch_station": {
+        "sound": "metal"
+    },
+    "nuclear:launch_station_loaded": {
+        "sound": "metal"
+    },
+    "nuclear:target_marker": {
+        "sound": "metal"
+    }
+}

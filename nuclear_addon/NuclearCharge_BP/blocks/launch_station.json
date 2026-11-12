@@ -1,0 +1,41 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "nuclear:launch_station",
+            "menu_category": {
+                "category": "construction"
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": ["minecraft:cardinal_direction"],
+                    "y_rotation_offset": 180.0
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": "geometry.nuclear.launch_station",
+            "minecraft:material_instances": {
+                "*":    { "texture": "launch_station_side", "render_method": "opaque" },
+                "up":   { "texture": "launch_station_top", "render_method": "opaque" },
+                "down": { "texture": "launch_station_bottom", "render_method": "opaque" }
+            },
+            "minecraft:collision_box": {
+                "origin": [-8, 0, -8],
+                "size": [16, 12, 16]
+            },
+            "minecraft:selection_box": {
+                "origin": [-8, 0, -8],
+                "size": [16, 12, 16]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 6
+            },
+            "minecraft:destructible_by_explosion": false,
+            "minecraft:light_emission": 3,
+            "minecraft:map_color": "#3c3c46",
+            "minecraft:flammable": false,
+            "minecraft:loot": "loot_tables/blocks/launch_station.json"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "nuclear:nuclear_charge_armed",
+            "menu_category": {
+                "category": "none"
+            }
+        },
+        "components": {
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "*":    { "texture": "nuclear_charge_side_armed", "render_method": "opaque" },
+                "up":   { "texture": "nuclear_charge_top_armed",  "render_method": "opaque" },
+                "down": { "texture": "nuclear_charge_bottom",     "render_method": "opaque" }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 4
+            },
+            "minecraft:destructible_by_explosion": false,
+            "minecraft:light_emission": 14,
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#ff2020",
+            "minecraft:flammable": false,
+            "minecraft:loot": "loot_tables/blocks/nuclear_charge.json"
+        }
+    }
+}

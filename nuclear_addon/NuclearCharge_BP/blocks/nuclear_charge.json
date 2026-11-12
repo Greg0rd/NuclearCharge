@@ -1,0 +1,28 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "nuclear:nuclear_charge",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "*":    { "texture": "nuclear_charge_side",   "render_method": "opaque" },
+                "up":   { "texture": "nuclear_charge_top",    "render_method": "opaque" },
+                "down": { "texture": "nuclear_charge_bottom", "render_method": "opaque" }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 4
+            },
+            "minecraft:destructible_by_explosion": false,
+            "minecraft:light_emission": 4,
+            "minecraft:light_dampening": 0,
+            "minecraft:map_color": "#8a1a12",
+            "minecraft:flammable": false,
+            "minecraft:loot": "loot_tables/blocks/nuclear_charge.json"
+        }
+    }
+}

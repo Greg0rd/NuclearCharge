@@ -1,0 +1,27 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nuclear:nuclear_detonator_recipe"
+        },
+        "tags": ["crafting_table"],
+        "unlock": [
+            { "item": "minecraft:redstone" }
+        ],
+        "pattern": [
+            "C",
+            "R",
+            "I"
+        ],
+        "key": {
+            "C": { "item": "minecraft:copper_ingot" },
+            "R": { "item": "minecraft:redstone" },
+            "I": { "item": "minecraft:iron_ingot" }
+        },
+        "priority": 0,
+        "result": {
+            "item": "nuclear:nuclear_detonator",
+            "count": 1
+        }
+    }
+}

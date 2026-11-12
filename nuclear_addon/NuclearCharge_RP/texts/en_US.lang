@@ -1,0 +1,9 @@
+tile.nuclear:nuclear_charge.name=Nuclear Charge
+tile.nuclear:nuclear_charge_armed.name=Nuclear Charge (Armed)
+tile.nuclear:launch_station.name=Launch Station
+tile.nuclear:launch_station_loaded.name=Launch Station (Loaded)
+item.nuclear:nuclear_detonator=Detonator
+item.nuclear:nuclear_detonator.name=Detonator
+pack.name=Nuclear Charge [BP]
+pack.description=Nuclear charge block + launch station: 100-block bowl crater, missile with coordinates, timer, redstone, remote, radiation, mushroom cloud, shockwave, real siren and geiger sounds.
+tile.nuclear:target_marker.name=Target Marker

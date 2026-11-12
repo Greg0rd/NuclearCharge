@@ -1,0 +1,9 @@
+tile.nuclear:nuclear_charge.name=Ядерный заряд
+tile.nuclear:nuclear_charge_armed.name=Ядерный заряд (активирован)
+tile.nuclear:launch_station.name=Пусковая станция
+tile.nuclear:launch_station_loaded.name=Пусковая станция (заряжена)
+item.nuclear:nuclear_detonator=Пульт подрыва
+item.nuclear:nuclear_detonator.name=Пульт подрыва
+pack.name=Nuclear Charge [BP]
+pack.description=Ядерный заряд и пусковая станция: кратер-чаша 100 блоков, ракета по координатам, таймер, красный камень, пульт, радиация, ядерный гриб, ударная волна, реальная сирена и гейгер.
+tile.nuclear:target_marker.name=Цель-метка

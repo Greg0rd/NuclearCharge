@@ -1,0 +1,35 @@
+{
+    "format_version": "1.14.0",
+    "sound_definitions": {
+        "nuclear.siren": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/custom/nuclear_siren",
+                    "volume": 1.0,
+                    "pitch": 1.0
+                }
+            ]
+        },
+        "nuclear.geiger": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/custom/nuclear_geiger",
+                    "volume": 1.0,
+                    "pitch": 1.0
+                }
+            ]
+        },
+        "nuclear.boom": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/custom/nuclear_boom",
+                    "volume": 1.0,
+                    "pitch": 1.0
+                }
+            ]
+        }
+    }
+}

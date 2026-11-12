@@ -1,0 +1,41 @@
+{
+    "resource_pack_name": "NuclearCharge_RP",
+    "texture_name": "atlas.terrain",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "nuclear_charge_top": {
+            "textures": "textures/blocks/nuclear_charge_top"
+        },
+        "nuclear_charge_top_armed": {
+            "textures": "textures/blocks/nuclear_charge_top_armed"
+        },
+        "nuclear_charge_side": {
+            "textures": "textures/blocks/nuclear_charge_side"
+        },
+        "nuclear_charge_side_armed": {
+            "textures": "textures/blocks/nuclear_charge_side_armed"
+        },
+        "nuclear_charge_bottom": {
+            "textures": "textures/blocks/nuclear_charge_bottom"
+        },
+        "launch_station_side": {
+            "textures": "textures/blocks/launch_station_side"
+        },
+        "launch_station_side_loaded": {
+            "textures": "textures/blocks/launch_station_side_loaded"
+        },
+        "launch_station_top": {
+            "textures": "textures/blocks/launch_station_top"
+        },
+        "launch_station_bottom": {
+            "textures": "textures/blocks/launch_station_bottom"
+        },
+        "target_marker": {
+            "textures": "textures/blocks/target_marker"
+        },
+        "target_marker_icon": {
+            "textures": "textures/items/target_marker_icon"
+        }
+    }
+}

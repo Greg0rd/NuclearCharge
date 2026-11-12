@@ -1,0 +1,27 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "nuclear:launch_station_recipe"
+        },
+        "tags": ["crafting_table"],
+        "unlock": [
+            { "item": "minecraft:iron_ingot" }
+        ],
+        "pattern": [
+            "IRI",
+            "RCR",
+            "III"
+        ],
+        "key": {
+            "I": { "item": "minecraft:iron_ingot" },
+            "R": { "item": "minecraft:redstone_block" },
+            "C": { "item": "minecraft:copper_block" }
+        },
+        "priority": 0,
+        "result": {
+            "item": "nuclear:launch_station",
+            "count": 1
+        }
+    }
+}

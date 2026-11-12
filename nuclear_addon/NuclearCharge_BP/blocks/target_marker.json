@@ -1,0 +1,44 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "nuclear:target_marker",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.nuclear.target_marker",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "target_marker",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:icon": {
+        "texture": "target_marker"
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [
+          -2,
+          5,
+          -2
+        ],
+        "size": [
+          4,
+          6,
+          4
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.3
+      },
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:light_emission": 7,
+      "minecraft:map_color": "#e62818",
+      "minecraft:flammable": false,
+      "minecraft:loot": "loot_tables/blocks/target_marker.json"
+    }
+  }
+}
